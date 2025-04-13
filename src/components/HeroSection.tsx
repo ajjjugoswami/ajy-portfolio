@@ -93,7 +93,7 @@ export function HeroSection() {
                 alt="Ajay Goswami"
                 width={450}
                 height={450}
-                className="w-full h-[250px] xs:h-[280px] sm:h-[350px] md:h-[400px] object-cover"
+                className="w-full h-[280px] xs:h-[280px] sm:h-[370px] md:h-[450px] object-cover"
                />
             </div>
           </div>
