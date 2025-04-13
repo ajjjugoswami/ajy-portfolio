@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink } from "lucide-react"
 
 const projects = [
   {

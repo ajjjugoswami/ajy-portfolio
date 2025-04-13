@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import Image from "next/image"
 import { Code, Laptop, Lightbulb, Palette } from "lucide-react"
 
 export function AboutSection() {
@@ -41,7 +40,7 @@ export function AboutSection() {
             <div className="relative">
               <div className="absolute -inset-2 sm:-inset-4 bg-gradient-to-br from-purple-600/20 to-pink-500/20 rounded-lg blur-xl"></div>
               <div className="relative bg-card rounded-lg overflow-hidden shadow-xl">
-                <Image
+                <img
                   src="/images/aboutme.webp"
                   alt="About me"
                   width={800}
@@ -57,14 +56,14 @@ export function AboutSection() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"
             }`}
           >
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">I'm a passionate developer with a creative mindset</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">I&apos;m a passionate developer with a creative mindset</h3>
             <p className="text-sm sm:text-base text-foreground/70 mb-4 sm:mb-6">
               With 1.5 years of experience as a frontend developer, I specialize in crafting modern, responsive, and
               user-friendly web interfaces. My journey into tech began with a fascination for how websites work, which
               led me to pursue web development and focus on frontend technologies.
             </p>
             <p className="text-sm sm:text-base text-foreground/70 mb-6 sm:mb-8">
-              I'm passionate about building clean, maintainable code and creating engaging user experiences. I love
+              I&apos;m passionate about building clean, maintainable code and creating engaging user experiences. I love
               learning new tools and technologies to stay ahead in the fast-evolving world of web development. I believe
               in combining creativity with technical skills to deliver high-quality results.
             </p>

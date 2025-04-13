@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Image from "next/image"
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 import { TypeAnimation } from "react-type-animation"
+import Image from "next/image"
 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
@@ -23,7 +23,7 @@ export function HeroSection() {
           }`}
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="block">Hi, I'm</span>
+            <span className="block">Hi, I&apos;m</span>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-500 dark:from-purple-400 dark:to-pink-300">
               Ajay Goswami
             </span>
@@ -93,11 +93,14 @@ export function HeroSection() {
           <div className="relative w-full aspect-square max-w-xs sm:max-w-sm md:max-w-md mx-auto">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600 to-pink-500 dark:from-purple-400 dark:to-pink-300 blur-2xl opacity-20 animate-pulse"></div>
             <div className="relative bg-muted rounded-full overflow-hidden border-4 border-background shadow-xl">
-              <img
+              <Image
                 src="/images/ajay1.webp"
                 alt="John Doe"
+                width={450}
+                height={450}
                 className="w-full h-[300px] sm:h-[400px] md:h-[450px] object-cover"
-               />
+                priority
+              />
             </div>
           </div>
         </div>
