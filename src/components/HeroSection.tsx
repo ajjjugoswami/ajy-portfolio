@@ -3,8 +3,7 @@
 import { useEffect, useState } from "react"
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 import { TypeAnimation } from "react-type-animation"
-import Image from "next/image"
-
+ 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
 
@@ -89,14 +88,13 @@ export function HeroSection() {
           <div className="relative w-full aspect-square max-w-[280px] xs:max-w-[320px] sm:max-w-sm md:max-w-md mx-auto">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-600 to-pink-500 dark:from-purple-400 dark:to-pink-300 blur-2xl opacity-20 animate-pulse"></div>
             <div className="relative bg-muted rounded-full overflow-hidden border-4 border-background shadow-xl">
-              <Image
-                src="/images/aj2.jpg"
+              <img
+                src="/images/aj2.webp"
                 alt="Ajay Goswami"
                 width={450}
                 height={450}
                 className="w-full h-[250px] xs:h-[280px] sm:h-[350px] md:h-[400px] object-cover"
-                priority
-              />
+               />
             </div>
           </div>
         </div>
