@@ -30,7 +30,7 @@ export function Header() {
           href="/"
           className="text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-500 dark:from-purple-400 dark:to-pink-300 animate-fade-in"
         >
-          Ajay Portfolio
+          Aj Portfolio
         </Link>
 
         <div className="flex items-center gap-4 sm:gap-6">
